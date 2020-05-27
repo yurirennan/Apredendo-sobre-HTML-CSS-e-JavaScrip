@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="/styles.css">
+
+        {% block head %}
+
+            <title>Yuri Rennan</title>
+
+        {% endblock %}
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/">Sobre</a>
+                <a href="/portifolio">Portifolio</a>
+            </div>
+        </header>
+
+        {% block content %}{% endblock %}
+    </body>
+
+</html>
